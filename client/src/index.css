@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset & layout base */
+html, body, #root { height: 100%; }
+body { margin: 0; }
+
+/* Nền toàn trang + căn giữa ngang cho container chính */
+.page {
+  min-height: 100%;
+  background: linear-gradient(135deg, #eef2ff, #f0f9ff, #f5f3ff);
+  padding: 24px;
+}

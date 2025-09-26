@@ -1,0 +1,50 @@
+.af-form {
+  display: grid;
+  gap: 12px;
+}
+
+.af-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.af-row-btn {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+}
+
+.af-input {
+  padding: 10px 12px;
+  background: #0b1220;
+  color: #e5e7eb;
+  border: 1px solid #1f2937;
+  border-radius: 10px;
+  outline: none;
+}
+
+.af-btn {
+  padding: 10px 16px;
+  background: #22c55e;
+  color: #0a0a0a;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.af-btn-loading {
+  background: #334155;
+  cursor: not-allowed;
+}
+
+.af-ok {
+  color: #86efac;
+  font-size: 14px;
+}
+
+.af-err {
+  color: #fca5a5;
+  font-size: 14px;
+}

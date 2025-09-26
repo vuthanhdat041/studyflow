@@ -1,0 +1,118 @@
+.al-search {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.al-input {
+  padding: 10px 12px;
+  background: #0b1220;
+  color: #e5e7eb;
+  border: 1px solid #1f2937;
+  border-radius: 10px;
+  outline: none;
+}
+
+.al-loading {
+  color: #93c5fd;
+}
+
+.al-error {
+  color: #fca5a5;
+}
+
+.al-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.al-card {
+  padding: 14px;
+  background: #0b1220;
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+}
+
+.al-editform {
+  display: grid;
+  gap: 8px;
+}
+
+.al-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  align-items: center;
+}
+
+.al-subject {
+  font-size: 13px;
+  color: #a3a3a3;
+  margin-bottom: 4px;
+}
+
+.al-title {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.al-meta {
+  font-size: 13px;
+  color: #9ca3af;
+  margin-top: 6px;
+}
+
+.al-status-done {
+  color: #86efac;
+}
+
+.al-status-pending {
+  color: #fbbf24;
+}
+
+.al-btnrow {
+  display: flex;
+  gap: 8px;
+}
+
+.al-btn {
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+
+.al-btn-primary {
+  background: #22c55e;
+  color: #0a0a0a;
+  font-weight: 700;
+}
+
+.al-btn-ghost {
+  background: #111827;
+  color: #e5e7eb;
+  border: 1px solid #1f2937;
+}
+
+.al-btn-danger {
+  background: #ef4444;
+  color: #0a0a0a;
+  font-weight: 700;
+}
+
+.al-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.al-pagination {
+  font-size: 13px;
+  color: #9ca3af;
+}

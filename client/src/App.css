@@ -1,0 +1,85 @@
+/* Bố cục chung */
+.app-container {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #0f172a;
+}
+
+/* Thẻ card trung tâm */
+.app-card {
+  width: min(900px, 92vw);
+  padding: 24px;
+  background: #111827;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  color: #e5e7eb;
+  text-align: left;
+}
+
+/* Tiêu đề */
+.app-title {
+  margin-bottom: 8px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* Phụ đề */
+.app-subtitle {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #9ca3af;
+}
+
+/* Đường kẻ ngăn cách */
+.app-divider {
+  height: 1px;
+  background: #1f2937;
+  margin: 20px 0;
+}
+
+/* Giữ lại style cũ nếu cần */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

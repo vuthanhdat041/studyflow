@@ -1,0 +1,42 @@
+.sc-card {
+  margin-top: 24px;
+  padding: 16px;
+  background: #0b1220;
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  color: #e5e7eb;
+}
+
+.sc-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.sc-loading {
+  color: #93c5fd;
+}
+
+.sc-error {
+  color: #fca5a5;
+}
+
+.sc-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sc-table th,
+.sc-table td {
+  border: 1px solid #1f2937;
+  padding: 8px;
+  text-align: center;
+}
+
+.sc-table th {
+  background: #111827;
+}
+
+.sc-table tr:nth-child(even) {
+  background: #1f2937;
+}
