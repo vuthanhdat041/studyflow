@@ -1,6 +1,7 @@
 # 📚 StudyFlow
 
 Ứng dụng demo quản lý bài tập (MERN Stack).
+Link: https://studyflow-dusky.vercel.app/
 
 ## 🚀 Tính năng
 
@@ -65,6 +66,7 @@ npm run dev
 Frontend mặc định chạy tại: http://localhost:5173
 
 ### 📡 API chính
+```
 Method	Endpoint	Mô tả
 GET	/api/assignments	Lấy danh sách (lọc, phân trang)
 GET	/api/assignments/:id	Lấy chi tiết 1 bài tập
@@ -72,7 +74,7 @@ POST	/api/assignments	Thêm bài tập
 PUT	/api/assignments/:id	Cập nhật bài tập
 DELETE	/api/assignments/:id	Xóa bài tập
 GET	/api/assignments/stats	Lấy thống kê theo môn
-
+```
 ### 🖼️ Giao diện
 Form thêm bài tập
 
