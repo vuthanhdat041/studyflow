@@ -11,7 +11,7 @@
 - Giao diện React hiện đại, kết nối MongoDB Atlas
 
 ## 🗂️ Cấu trúc thư mục
-
+```
 studyflow/
 │
 ├── server/ # Backend (Node.js + Express + MongoDB)
@@ -38,9 +38,7 @@ studyflow/
 │ │ └── StatsChart.css
 │
 └── README.md
-
-
----
+```
 
 ## ⚙️ Cài đặt & chạy
 
