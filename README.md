@@ -11,7 +11,7 @@
 - Giao diện React hiện đại, kết nối MongoDB Atlas
 
 ## 🗂️ Cấu trúc thư mục
-
+'''
 studyflow/
 │
 ├── server/ # Backend (Node.js + Express + MongoDB)
@@ -34,7 +34,7 @@ studyflow/
 │ │ └── styles (App.css, AssignmentForm.css, ...)
 │
 └── README.md
-
+'''
 ## ⚙️ Cài đặt & chạy
 
 ### 1. Backend (server)
