@@ -14,14 +14,14 @@
 ```
 studyflow/
 │
-├── server/ # Backend (Node.js + Express + MongoDB)
-│ ├── server.js
-│ ├── models/
+|
+├── server.js # Backend (Node.js + Express + MongoDB)
+├── models/
 │ │ └── Assignment.js
-│ ├── controllers/
+├── controllers/
 │ │ └── assignmentController.js
-│ └── routes/
-│ └── assignmentRoutes.js
+└── routes/
+│ | └── assignmentRoutes.js
 │
 ├── client/ # Frontend (React + Vite)
 │ ├── src/
